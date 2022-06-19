@@ -176,14 +176,16 @@ func (t *Transaction) unmarshalJSON(v *fastjson.Value) error {
 		}
 	}
 
-	if t.V, err = decodeBytes(t.V[:0], v, "v"); err != nil {
-		return err
-	}
-	if t.R, err = decodeBytes(t.R[:0], v, "r"); err != nil {
-		return err
-	}
-	if t.S, err = decodeBytes(t.S[:0], v, "s"); err != nil {
-		return err
+	if err := exists("v"); err == nil {
+		if t.V, err = decodeBytes(t.V[:0], v, "v"); err != nil {
+			return err
+		}
+		if t.R, err = decodeBytes(t.R[:0], v, "r"); err != nil {
+			return err
+		}
+		if t.S, err = decodeBytes(t.S[:0], v, "s"); err != nil {
+			return err
+		}
 	}
 
 	if typ != TransactionLegacy {
