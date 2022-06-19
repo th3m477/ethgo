@@ -3,8 +3,8 @@ package examples
 import (
 	"fmt"
 
-	"github.com/umbracle/ethgo/abi"
-	"github.com/umbracle/ethgo/contract"
+	"github.com/th3m477/ethgo/abi"
+	"github.com/th3m477/ethgo/contract"
 )
 
 func contractDeploy() {

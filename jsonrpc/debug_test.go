@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/umbracle/ethgo/testutil"
+	"github.com/th3m477/ethgo/testutil"
 )
 
 func TestDebug_TraceTransaction(t *testing.T) {

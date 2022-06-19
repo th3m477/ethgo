@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/mitchellh/cli"
-	"github.com/umbracle/ethgo/cmd/commands"
+	"github.com/th3m477/ethgo/cmd/commands"
 )
 
 func main() {

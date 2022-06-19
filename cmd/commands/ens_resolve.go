@@ -5,7 +5,7 @@ import (
 
 	"github.com/mitchellh/cli"
 	flag "github.com/spf13/pflag"
-	"github.com/umbracle/ethgo/ens"
+	"github.com/th3m477/ethgo/ens"
 )
 
 func defaultJsonRPCProvider() string {

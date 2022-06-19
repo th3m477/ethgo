@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"github.com/th3m477/ethgo"
 	"hash"
 	"io"
 	"regexp"
 	"strings"
 	"sync"
 
-	"github.com/umbracle/ethgo"
 	"golang.org/x/crypto/sha3"
 )
 

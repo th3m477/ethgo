@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/umbracle/ethgo"
+	"github.com/th3m477/ethgo"
 )
 
 // EncryptV3 encrypts data in v3 format

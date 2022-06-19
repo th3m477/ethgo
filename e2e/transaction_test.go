@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/umbracle/ethgo"
-	"github.com/umbracle/ethgo/jsonrpc"
-	"github.com/umbracle/ethgo/testutil"
-	"github.com/umbracle/ethgo/wallet"
+	"github.com/th3m477/ethgo"
+	"github.com/th3m477/ethgo/jsonrpc"
+	"github.com/th3m477/ethgo/testutil"
+	"github.com/th3m477/ethgo/wallet"
 )
 
 func TestSendSignedTransaction(t *testing.T) {

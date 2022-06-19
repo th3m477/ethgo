@@ -1,9 +1,9 @@
 package ens
 
 import (
-	"github.com/umbracle/ethgo"
-	"github.com/umbracle/ethgo/contract"
-	"github.com/umbracle/ethgo/jsonrpc"
+	"github.com/th3m477/ethgo"
+	"github.com/th3m477/ethgo/contract"
+	"github.com/th3m477/ethgo/jsonrpc"
 )
 
 type ENSResolver struct {

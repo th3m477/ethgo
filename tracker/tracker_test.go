@@ -11,13 +11,13 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/umbracle/ethgo"
-	"github.com/umbracle/ethgo/abi"
-	"github.com/umbracle/ethgo/blocktracker"
-	"github.com/umbracle/ethgo/jsonrpc"
-	"github.com/umbracle/ethgo/jsonrpc/codec"
-	"github.com/umbracle/ethgo/testutil"
-	"github.com/umbracle/ethgo/tracker/store/inmem"
+	"github.com/th3m477/ethgo"
+	"github.com/th3m477/ethgo/abi"
+	"github.com/th3m477/ethgo/blocktracker"
+	"github.com/th3m477/ethgo/jsonrpc"
+	"github.com/th3m477/ethgo/jsonrpc/codec"
+	"github.com/th3m477/ethgo/testutil"
+	"github.com/th3m477/ethgo/tracker/store/inmem"
 )
 
 func testConfig() ConfigOption {

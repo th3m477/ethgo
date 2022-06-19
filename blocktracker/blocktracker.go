@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/umbracle/ethgo"
-	"github.com/umbracle/ethgo/jsonrpc"
+	"github.com/th3m477/ethgo"
+	"github.com/th3m477/ethgo/jsonrpc"
 )
 
 // BlockProvider are the eth1x methods required by the block tracker

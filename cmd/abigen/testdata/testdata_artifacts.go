@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/umbracle/ethgo/abi"
+	"github.com/th3m477/ethgo/abi"
 )
 
 var abiTestdata *abi.ABI

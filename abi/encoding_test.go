@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/umbracle/ethgo"
-	"github.com/umbracle/ethgo/compiler"
-	"github.com/umbracle/ethgo/testutil"
+	"github.com/th3m477/ethgo"
+	"github.com/th3m477/ethgo/compiler"
+	"github.com/th3m477/ethgo/testutil"
 )
 
 func mustDecodeHex(str string) []byte {
